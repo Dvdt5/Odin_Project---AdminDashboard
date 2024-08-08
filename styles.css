@@ -137,7 +137,6 @@ main {
     background-color: transparent;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 1fr;
     margin: 30px;
 }
 
@@ -160,7 +159,7 @@ main {
 
 .project-card {
     background-color: white;
-    height: 250px;
+    height: 276px;
     border-left: 10px solid red;
     box-sizing: border-box;
     border-radius: 10px;
@@ -193,16 +192,16 @@ main {
 
 #announcements {
     padding: 15px;
+    padding-top: 0;
     grid-row: 1 / 2;
+    
 }
 
 #announcements-container {
-    padding: 15px;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 16px;
+    padding: 20px;
     background-color: white;
     border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #announcements-header-text {
@@ -224,7 +223,37 @@ main {
 }
 
 #trending {
-    background-color: chartreuse;
+    padding: 16px;
+}
+
+#trending-header-text {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+
+#trending-container {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.trending-name {
+    color: darkslategrey;  
+    margin-left: 15px;
+}
+
+.trending-author {
+    font-weight: bold;   
+    padding-top: 15px;
+}
+
+.trending-row img {
+    width: 55px;
+    float: left;
+    padding: 10px;
 }
 
 .btn {
